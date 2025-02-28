@@ -1,0 +1,157 @@
+body {
+  /* color: red; Changes text color */
+  /* font-family: Arial, sans-serif; */
+  color: white;
+  font-family: auto;
+}
+.main {
+  height: 100dvh;
+  width: 100vw;
+  /* background: radial-gradient(#05f771, #44d99c); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Child-main  */
+
+.child-main {
+  flex: 1;
+  height: 100%;
+  /* width: 100%; */
+  background-color: #3c3d37;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  /* flex-direction: column; */
+  /* border-radius: 20px; */
+}
+.ham1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+.child-main h3 {
+  font-size: 30px;
+}
+.ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 95%;
+  height: 90%;
+  overflow-y: overlay;
+}
+.parent-msg {
+  width: 100%;
+}
+.msg {
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+}
+.user-msg {
+  justify-content: flex-end;
+  text-align: right;
+}
+.bot-msg {
+  text-align: left;
+  /* justify-content: flex-start; */
+}
+.user-p {
+  border-radius: 20px 20px 0px 20px !important;
+}
+.msg p {
+  color: white;
+  background-color: #372e2e;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 4px 0;
+}
+.bot-msg p {
+  background-color: #66695d;
+  color: white;
+}
+.child-form {
+  width: cal(100/2);
+}
+form {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: #465053;
+  border-radius: 20px;
+  margin: 20px 0;
+  padding: 10px;
+}
+input {
+  height: 33px;
+  width: 70%;
+  padding: 0 7px;
+  /* border-radius: 15px; */
+  background: transparent;
+  border: none;
+  color: white;
+}
+.btn {
+  width: 90px;
+  height: 33px;
+  font-size: medium;
+  background-color: #384655c7;
+  border-radius: 10px;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+}
+text {
+  color: #ecdfcc;
+}
+/* Menu  */
+.menu {
+  height: 100%;
+  width: 20%;
+  background-color: #555151;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.child-menu {
+  /* height: 100%; */
+  width: 100%;
+  text-align: left;
+  /* margin-top: 10px; */
+  padding: 10px 0;
+}
+
+/* Box  */
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 70%;
+}
+.navbar {
+  background-color: #211919;
+  height: 100%;
+  width: 200px;
+  text-align: left;
+}
+.child-navbar {
+  margin: 15px;
+  padding: 10px 0;
+}
+.ais {
+  margin: 12px 10px;
+  cursor: pointer;
+}
+.ham1 {
+  font-size: 27px;
+}
