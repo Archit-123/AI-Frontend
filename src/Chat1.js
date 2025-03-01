@@ -23,9 +23,12 @@ export default function Chat1() {
     setMsgs((prevMsgs) => [...prevMsgs, msg]);
     setMsg("");
     try {
-      const response = await axios.post("http://localhost:5001/msg", {
-        message: msg,
-      });
+      const response = await axios.post(
+        "https://ai-backend-x3fl.onrender.com/msg",
+        {
+          message: msg,
+        }
+      );
 
       const botReply = response.data.reply;
 
